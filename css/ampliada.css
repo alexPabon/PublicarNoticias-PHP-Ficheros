@@ -1,0 +1,41 @@
+textarea
+{
+	display: block;
+	width: 600px;
+	height: 300px;
+	padding: 5px 10px;
+}
+label
+{
+	font-size: 20px;
+	padding: 5px 10px;
+}
+input
+{
+	padding: 5px 10px;	
+}
+
+input[type="submit"]
+{
+	border-radius: 8px;
+	outline: none;
+	background-color: black;
+	color: white;
+	margin: 3px;	
+}
+
+.marco
+{
+	background-color: lightgray;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.contenido{
+	text-align: justify;
+}
+
+input[type="submit"]:hover{
+	background-color: white;
+	color: black;
+}

@@ -1,0 +1,65 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	padding-top: 50px;
+}
+
+.wrapper
+{
+	max-width: 1080px;
+	margin: auto;
+	padding: 15px;
+}
+
+nav
+{
+	background-color: black;
+	color: white;
+	padding: 8px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+nav:after
+{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+nav > a
+{
+	float: left;
+}
+
+nav p
+{
+	display: inline-block;
+	margin: 0;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: white;
+	margin: 0 10px;
+	font-size: 20px;
+	padding: 0 10px;	
+	border: solid 1px black;
+	border-radius: 2px;
+}
+nav>div.user-items
+{
+	float: right;
+}
+
+nav a:hover{
+	border-color: white;		
+}

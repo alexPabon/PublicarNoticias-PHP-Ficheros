@@ -1,0 +1,36 @@
+h1
+{
+	text-align: center;
+	margin: 25px;
+}
+
+.noticia
+{
+	padding: 15px;
+	background-color: beige;
+	margin: 15px 0;
+	border-radius: 5px;
+	color: black;
+}
+
+.noticia:hover
+{
+	box-shadow: 2px 2px 2px grey;
+}
+
+.noticia:after
+{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.fecha
+{
+	float: left;
+}
+
+.titulo
+{
+	float: right;
+}

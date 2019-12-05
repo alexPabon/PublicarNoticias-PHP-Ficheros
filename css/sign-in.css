@@ -1,0 +1,45 @@
+ul
+{
+	list-style-type: none;
+}
+
+ul li
+{
+	margin: 15px;
+}
+
+input
+{
+	padding: 5px 10px;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid black;
+	width: 150px;
+}
+
+input:focus
+{
+	outline: 0;
+	transition: width .5s;
+	width: 250px;
+}
+
+input[type=submit]
+{
+	border: solid 1px black;
+	background-color: transparent;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+	background-color: black;
+	color: white;
+}
+
+input.error
+{
+	border-bottom: 1px solid red;
+}
