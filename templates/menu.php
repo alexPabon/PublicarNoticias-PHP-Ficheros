@@ -8,12 +8,12 @@
 			<a href="close.php">Cerrar sesión</a>
 		</div>
 	</nav>
-<?php }else{ ?>
-<nav>
-	<a href="index.php">Home</a>
-	<div class="user-items">
-		<a href="login.php">Log-in</a>
-		<a href="sign-in.php">Sig-in</a>
-	</div>
-</nav>
-<?php } ?>
+	<?php }else{ ?>
+	<nav>
+		<a href="index.php">Home</a>
+		<div class="user-items">
+			<a href="login.php">Log-in</a>
+			<a href="sign-in.php">Sig-in</a>
+		</div>
+	</nav>
+	<?php } ?>
